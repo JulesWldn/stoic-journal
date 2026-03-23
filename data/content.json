@@ -1,0 +1,464 @@
+{
+    "quotes": [
+        {
+            "text": "Du hast Macht über deinen Geist - nicht über äußere Ereignisse. Erkenne dies, und du wirst Stärke finden.",
+            "author": "Marcus Aurelius",
+            "context": "Marcus schrieb dies als römischer Kaiser, mitten im Krieg an der Donau - umgeben von Chaos, das er nicht kontrollieren konnte. Er erinnerte sich selbst daran, dass die einzige Festung, die nie fällt, der eigene Geist ist.",
+            "questions": [
+                "Worüber hast du gerade das Gefühl, keine Kontrolle zu haben?",
+                "Was wäre anders, wenn du nur den Teil betrachtest, der in deiner Hand liegt?",
+                "Welchen einen Gedanken könntest du heute bewusst wählen?"
+            ]
+        },
+        {
+            "text": "Es ist nicht der Tod, den ein Mensch fürchten sollte, sondern dass er nie zu leben beginnt.",
+            "author": "Marcus Aurelius",
+            "context": "Marcus kam immer wieder auf die Endlichkeit zurück - nicht als düstere Mahnung, sondern als Einladung. Wenn alles endet, warum dann zögern?",
+            "questions": [
+                "Was schiebst du vor dir her, obwohl es dir wichtig ist?",
+                "Was würdest du heute tun, wenn du wüsstest, dass die Zeit begrenzt ist?",
+                "Wo verwechselst du Vorsicht mit Vermeidung?"
+            ]
+        },
+        {
+            "text": "Das Glück deines Lebens hängt von der Beschaffenheit deiner Gedanken ab.",
+            "author": "Marcus Aurelius",
+            "context": "Nicht die Welt bestimmt, wie du dich fühlst - sondern die Geschichte, die du dir über die Welt erzählst. Zweitausend Jahre vor der kognitiven Verhaltenstherapie hat Marcus genau das erkannt.",
+            "questions": [
+                "Welche Geschichte erzählst du dir gerade über dein Leben?",
+                "Wie würde sich dein Tag anfühlen, wenn du diese Geschichte umschreiben könntest?",
+                "Welcher wiederkehrende Gedanke verdient eine ehrliche Prüfung?"
+            ]
+        },
+        {
+            "text": "Wir leiden öfter in der Vorstellung als in der Wirklichkeit.",
+            "author": "Seneca",
+            "context": "Seneca schrieb dies in einem Brief an seinen Freund Lucilius. Die meisten Katastrophen, die wir fürchten, finden nur in unserem Kopf statt - und verbrauchen echte Energie für imaginäre Probleme.",
+            "questions": [
+                "Wovor hast du gerade Angst - und ist es schon eingetreten?",
+                "Wie oft hat sich eine Befürchtung tatsächlich so bewahrheitet?",
+                "Was wäre, wenn du die Sorge als das erkennst, was sie ist - nur ein Gedanke?"
+            ]
+        },
+        {
+            "text": "Wahres Glück besteht darin, die Gegenwart zu genießen, ohne ängstlich von der Zukunft abzuhängen.",
+            "author": "Seneca",
+            "context": "Seneca warnte vor einer Lebensweise, die immer auf das Morgen gerichtet ist. Nicht weil Ziele schlecht sind, sondern weil das Leben immer nur jetzt stattfindet.",
+            "questions": [
+                "Bist du heute mit deinen Gedanken eher hier - oder schon bei dem, was kommt?",
+                "Was ist gerade gut, auch wenn du es kaum bemerkst?",
+                "Was wäre, wenn du heute für eine Stunde einfach nichts planst?"
+            ]
+        },
+        {
+            "text": "Es gibt nur einen Weg zum Glück, und das ist aufzuhören, sich über Dinge zu sorgen, die jenseits unseres Willens liegen.",
+            "author": "Epiktet",
+            "context": "Epiktet wurde als Sklave geboren. Seine Philosophie entstand nicht am Schreibtisch, sondern im Leiden. Wer keine äußere Freiheit hat, findet innere Freiheit umso dringlicher.",
+            "questions": [
+                "Welche Sorge trägst du mit dir, die nicht in deiner Macht liegt?",
+                "Was würdest du mit der Energie tun, die du für diese Sorge aufwendest?",
+                "Kannst du den Unterschied zwischen Verantwortung und Kontrollillusion erkennen?"
+            ]
+        },
+        {
+            "text": "Nicht die Dinge beunruhigen die Menschen, sondern die Meinungen über die Dinge.",
+            "author": "Epiktet",
+            "context": "Zwischen einem Ereignis und unserer Reaktion liegt immer ein Raum - der Raum unserer Interpretation. In diesem Raum liegt unsere Freiheit. Epiktet nannte diesen Raum die Prohairesis.",
+            "questions": [
+                "Welches Ereignis beschäftigt dich - und welche Bewertung hast du ihm gegeben?",
+                "Wie würde jemand anderes dieselbe Situation sehen?",
+                "Könntest du die Bewertung ändern, ohne die Realität zu leugnen?"
+            ]
+        },
+        {
+            "text": "Memento Mori - Bedenke, dass du sterblich bist.",
+            "author": "Stoische Weisheit",
+            "context": "Im alten Rom flüsterte ein Sklave dem triumphierenden Feldherrn diese Worte zu. Nicht als Drohung, sondern als Geschenk - die Erinnerung, dass jeder Moment zählt.",
+            "questions": [
+                "Wenn heute dein letzter Tag wäre - was hättest du gerne noch getan?",
+                "Was hat heute wirklich Bedeutung - jenseits des Dringenden?",
+                "Wie möchtest du diesen einen Tag nutzen?"
+            ]
+        },
+        {
+            "text": "Verliere keine Zeit mehr damit, darüber zu diskutieren, was ein guter Mensch sein sollte. Sei einer.",
+            "author": "Marcus Aurelius",
+            "context": "Marcus hatte keine Geduld für moralische Theorie ohne Praxis. Als Kaiser sah er täglich, wie Menschen über Tugend sprachen und das Gegenteil taten. Handeln kam vor Reden.",
+            "questions": [
+                "Wo gibt es gerade eine Lücke zwischen dem, was du sagst, und dem, was du tust?",
+                "Was wäre eine kleine Handlung heute, die deinen Werten entspricht?",
+                "Für wen könntest du heute ein besserer Mensch sein?"
+            ]
+        },
+        {
+            "text": "Die Hindernisse auf dem Weg zum Handeln fördern das Handeln. Was im Weg steht, wird zum Weg.",
+            "author": "Marcus Aurelius",
+            "context": "Marcus führte fast zwanzig Jahre lang Krieg, verlor Kinder, verlor Freunde. Er lernte, dass Widerstand kein Zeichen dafür ist, dass man falsch liegt - sondern dass man lebt.",
+            "questions": [
+                "Was ist das größte Hindernis, das du gerade siehst?",
+                "Was könnte dieses Hindernis dir beibringen?",
+                "Wie könntest du es als Teil des Weges sehen, nicht als Ende des Weges?"
+            ]
+        },
+        {
+            "text": "Solange du lebst, solange du kannst - lerne, wie du zu leben hast.",
+            "author": "Seneca",
+            "context": "Seneca schrieb diesen Satz kurz vor seinem Tod, als Nero ihn zur Vollstreckung aufforderte. Auch am Ende blieb er Philosoph. Das Lernen hört nie auf.",
+            "questions": [
+                "Was hast du in letzter Zeit wirklich gelernt - über dich oder die Welt?",
+                "Wo bist du aufgehört zu fragen, weil du dachtest, du weißt es schon?",
+                "Was würdest du einem jüngeren Ich raten?"
+            ]
+        },
+        {
+            "text": "Benutze die Zeit - sie wartet nicht.",
+            "author": "Seneca",
+            "context": "In seinen Briefen klagte Seneca immer wieder, wie leichtsinnig Menschen mit Zeit umgehen. Sie geben Geld, Gesundheit und Schlaf, aber die Zeit - die einzige unwiederbringliche Ressource - verschwenden sie sorglos.",
+            "questions": [
+                "Womit verbringst du Zeit, die dich eigentlich nicht erfüllt?",
+                "Was würde sich verändern, wenn du Zeit wie eine kostbare Ressource behandelst?",
+                "Was möchtest du in der nächsten Woche wirklich tun?"
+            ]
+        },
+        {
+            "text": "Zuerst sage dir selbst, was du sein möchtest, dann tue, was du tun musst.",
+            "author": "Epiktet",
+            "context": "Epiktet sah in der Selbstdefinition den ersten Schritt zu jeder Veränderung. Wer nicht weiß, wer er sein will, hat kein Fundament für Entscheidungen.",
+            "questions": [
+                "Wer möchtest du sein - in einem Satz?",
+                "Welche Entscheidung heute entspricht diesem Bild - und welche nicht?",
+                "Was wäre der erste kleine Schritt in Richtung dieser Person?"
+            ]
+        },
+        {
+            "text": "Das Leben ist kurz, aber wenn du weißt, wie du es nutzen sollst, ist es lang genug.",
+            "author": "Seneca",
+            "context": "Aus 'De brevitate vitae' - Über die Kürze des Lebens. Seneca argumentierte, das Problem sei nicht die Kürze des Lebens, sondern wie wenig davon wirklich gelebt wird.",
+            "questions": [
+                "Was machst du gerade, das sich wirklich wie gelebtes Leben anfühlt?",
+                "Was raubt dir Zeit, ohne dir etwas zu geben?",
+                "Wie würde ein erfüllter Tag für dich aussehen?"
+            ]
+        },
+        {
+            "text": "Du bist nicht der Körper, in dem du lebst, und nicht die Gedanken, die du denkst. Du bist der, der beobachtet.",
+            "author": "Epiktet",
+            "context": "Der stoische Begriff des 'inneren Führers' - Hegemonikon - bezeichnet den beobachtenden Teil des Bewusstseins. Dieser Teil bleibt frei, auch wenn alles andere in Bewegung ist.",
+            "questions": [
+                "Kannst du gerade einen Moment innehalten und nur beobachten, was in dir vorgeht?",
+                "Was nimmst du wahr, wenn du deinen Gedanken nicht glaubst, sondern sie nur beobachtest?",
+                "Welcher Teil von dir ist ruhig, auch wenn der Rest in Bewegung ist?"
+            ]
+        }
+    ],
+    "dumpPrompts": [
+        "Was beschäftigt dich gerade?",
+        "Was trägst du heute mit dir?",
+        "Schreib es auf. Alles.",
+        "Was würdest du lieber nicht denken?",
+        "Was füllt deinen Kopf gerade?",
+        "Was liegt dir auf der Seele?",
+        "Lass es raus. Niemand liest mit.",
+        "Was brauchst du, um loszulassen?"
+    ],
+    "bodyPlaceholders": [
+        "Lass die Gedanken einfach fließen...",
+        "Es gibt hier keine Regeln. Nur du und deine Gedanken.",
+        "Schreib, was da ist. Ohne Urteil.",
+        "Dein Geist wird leichter, wenn du die Dinge ablegst.",
+        "Was auch immer da ist - es darf hier sein.",
+        "Kein Anfang nötig. Einfach schreiben."
+    ],
+    "morningQuestionSets": [
+        [
+            {
+                "pillar": "Dankbarkeit",
+                "question": "Wofür bist du dankbar, dass es in deinem Leben ist - gerade jetzt, in diesem Moment?"
+            },
+            {
+                "pillar": "Absicht",
+                "question": "Was ist die eine Sache, die du heute mit voller Aufmerksamkeit tun möchtest?"
+            },
+            {
+                "pillar": "Kontrolle",
+                "question": "Was liegt heute außerhalb deiner Kontrolle - und kannst du es bewusst loslassen?"
+            }
+        ],
+        [
+            {
+                "pillar": "Freude",
+                "question": "Was ist eine kleine Sache, auf die du dich heute freuen kannst - auch wenn sie unbedeutend erscheint?"
+            },
+            {
+                "pillar": "Tugend",
+                "question": "Wie kannst du heute der Mensch sein, der du sein möchtest - in einer konkreten Situation?"
+            },
+            {
+                "pillar": "Memento Mori",
+                "question": "Wenn dieser Morgen dein letzter wäre - was würdest du nicht bereuen?"
+            }
+        ],
+        [
+            {
+                "pillar": "Verbindung",
+                "question": "Für wen möchtest du heute bewusst da sein - vollständig anwesend, nicht nur körperlich?"
+            },
+            {
+                "pillar": "Energie",
+                "question": "Was gibt dir heute Kraft - und was könnte dir Kraft rauben, wenn du nicht aufpasst?"
+            },
+            {
+                "pillar": "Klarheit",
+                "question": "Was ist die wichtigste Entscheidung, die du heute treffen musst - und was brauchst du dafür?"
+            }
+        ],
+        [
+            {
+                "pillar": "Körper",
+                "question": "Wie geht es deinem Körper gerade - und was braucht er heute von dir?"
+            },
+            {
+                "pillar": "Fokus",
+                "question": "Was ist das eine Ding, das alles andere einfacher machen würde, wenn du es heute erledigst?"
+            },
+            {
+                "pillar": "Akzeptanz",
+                "question": "Was ist eine Situation, die du heute so akzeptieren kannst, wie sie ist - ohne sie verändern zu wollen?"
+            }
+        ],
+        [
+            {
+                "pillar": "Wachstum",
+                "question": "Was hat dich gestern überrascht - über dich selbst oder über die Welt?"
+            },
+            {
+                "pillar": "Stille",
+                "question": "Wann wirst du heute eine Pause machen - nicht um etwas zu tun, sondern um einfach zu sein?"
+            },
+            {
+                "pillar": "Dankbarkeit",
+                "question": "Welche Person in deinem Leben verdient heute deinen Dank - auch unausgesprochen?"
+            }
+        ]
+    ],
+    "eveningQuestionSets": [
+        [
+            {
+                "pillar": "Rückblick",
+                "question": "Was hast du heute gut gemacht - und wo warst du der Mensch, der du sein möchtest?"
+            },
+            {
+                "pillar": "Ehrlichkeit",
+                "question": "Wo bist du heute hinter deinen eigenen Ansprüchen zurückgeblieben?"
+            },
+            {
+                "pillar": "Erkenntnis",
+                "question": "Was nimmst du aus diesem Tag mit in den nächsten?"
+            }
+        ],
+        [
+            {
+                "pillar": "Dankbarkeit",
+                "question": "Was war der schönste Moment des heutigen Tages - auch wenn er klein war?"
+            },
+            {
+                "pillar": "Fehler",
+                "question": "Was würdest du heute anders machen - und was lernst du daraus für morgen?"
+            },
+            {
+                "pillar": "Wachstum",
+                "question": "Was hat dich heute herausgefordert - und bist du daran gewachsen?"
+            }
+        ],
+        [
+            {
+                "pillar": "Verbindung",
+                "question": "Warst du heute wirklich bei den Menschen, mit denen du zusammen warst?"
+            },
+            {
+                "pillar": "Stärke",
+                "question": "In welchem Moment hast du heute etwas getan, das dir schwergefallen ist?"
+            },
+            {
+                "pillar": "Morgen",
+                "question": "Was ist die eine Sache, die du morgen als erstes tun möchtest?"
+            }
+        ],
+        [
+            {
+                "pillar": "Freude",
+                "question": "Was hat dich heute zum Lächeln gebracht - ohne dass du es gesucht hast?"
+            },
+            {
+                "pillar": "Verantwortung",
+                "question": "Wo hast du heute die Verantwortung übernommen, die du tragen solltest?"
+            },
+            {
+                "pillar": "Absicht",
+                "question": "War der heutige Tag so, wie du ihn geplant hattest - und wenn nicht, was hat sich verändert?"
+            }
+        ],
+        [
+            {
+                "pillar": "Tugend",
+                "question": "Hast du heute so gehandelt, wie du es einem guten Freund empfehlen würdest?"
+            },
+            {
+                "pillar": "Versöhnung",
+                "question": "Gibt es etwas aus dem heutigen Tag, das du loslassen kannst - bevor du schläfst?"
+            },
+            {
+                "pillar": "Ruhe",
+                "question": "Was brauchst du jetzt, um wirklich zur Ruhe zu kommen?"
+            }
+        ]
+    ],
+    "reflectionQuestionSets": [
+        [
+            {
+                "pillar": "Kontrolle",
+                "question": "Was beschäftigt dich, das außerhalb deiner Kontrolle liegt - und was könntest du loslassen?"
+            },
+            {
+                "pillar": "Tugend",
+                "question": "Wo hast du heute gehandelt, wie der Mensch, der du sein möchtest?"
+            },
+            {
+                "pillar": "Dankbarkeit",
+                "question": "Wofür bist du heute dankbar - auch wenn es klein erscheint?"
+            },
+            {
+                "pillar": "Morgen",
+                "question": "Was ist eine Sache, die du morgen mit Absicht tun möchtest?"
+            }
+        ],
+        [
+            {
+                "pillar": "Angst",
+                "question": "Was ist deine tiefste Sorge gerade - und wie groß ist die Chance, dass sie wirklich eintritt?"
+            },
+            {
+                "pillar": "Freude",
+                "question": "Was hat dir in letzter Zeit echte Freude gemacht - nicht Zerstreuung, sondern Freude?"
+            },
+            {
+                "pillar": "Weisheit",
+                "question": "Was würde ein weiser Freund dir gerade sagen, wenn er alles wüsste?"
+            },
+            {
+                "pillar": "Natur",
+                "question": "Wann warst du zuletzt wirklich draußen - ohne Ziel, nur um zu sein?"
+            }
+        ],
+        [
+            {
+                "pillar": "Beziehungen",
+                "question": "Welche Beziehung in deinem Leben braucht gerade mehr Aufmerksamkeit von dir?"
+            },
+            {
+                "pillar": "Energie",
+                "question": "Was gibt dir gerade Energie - und was raubt sie dir, ohne etwas zurückzugeben?"
+            },
+            {
+                "pillar": "Fokus",
+                "question": "Was wäre, wenn du in der nächsten Woche nur eine Sache wirklich gut machen würdest?"
+            },
+            {
+                "pillar": "Wachstum",
+                "question": "In welchem Bereich deines Lebens möchtest du in einem Jahr anders sein?"
+            }
+        ],
+        [
+            {
+                "pillar": "Mut",
+                "question": "Was ist das mutigste, das du gerade tun könntest - und was hält dich zurück?"
+            },
+            {
+                "pillar": "Körper",
+                "question": "Wie behandelst du deinen Körper gerade - und was verdient er von dir?"
+            },
+            {
+                "pillar": "Geist",
+                "question": "Was liest, hörst oder erfährst du gerade, das deinen Geist wirklich nährt?"
+            },
+            {
+                "pillar": "Dankbarkeit",
+                "question": "Wer in deinem Leben hat dir etwas gegeben, dem du nie wirklich gedankt hast?"
+            }
+        ],
+        [
+            {
+                "pillar": "Memento Mori",
+                "question": "Was würde sich verändern, wenn du wüsstest, dass du nur noch ein Jahr zu leben hast?"
+            },
+            {
+                "pillar": "Absicht",
+                "question": "Lebst du dein Leben gerade - oder lässt du es geschehen?"
+            },
+            {
+                "pillar": "Loslassen",
+                "question": "Was trägst du mit dir, das du schon lange hättest loslassen sollen?"
+            },
+            {
+                "pillar": "Freude",
+                "question": "Was macht dich wirklich glücklich - nicht was sollte dich glücklich machen?"
+            }
+        ]
+    ],
+    "letterDurations": [
+        {
+            "label": "7 Tage",
+            "days": 7
+        },
+        {
+            "label": "30 Tage",
+            "days": 30
+        },
+        {
+            "label": "90 Tage",
+            "days": 90
+        }
+    ],
+    "morningCompletionQuotes": [
+        {
+            "quote": "Beginne. Der Rest wird folgen.",
+            "author": "Marcus Aurelius"
+        },
+        {
+            "quote": "Jeder Morgen ist eine neue Gelegenheit, gut zu handeln.",
+            "author": "Marcus Aurelius"
+        },
+        {
+            "quote": "Der Anfang ist die Hälfte des Ganzen.",
+            "author": "Aristoteles"
+        }
+    ],
+    "eveningCompletionQuotes": [
+        {
+            "quote": "Jeder Abend ist eine kleine Vollendung.",
+            "author": "Seneca"
+        },
+        {
+            "quote": "Was gut beendet wurde, war gut gelebt.",
+            "author": "Seneca"
+        },
+        {
+            "quote": "Ruhe ist keine Schwäche - sie ist die Frucht der Stärke.",
+            "author": "Marcus Aurelius"
+        }
+    ],
+    "reflectionCompletionQuotes": [
+        {
+            "quote": "Die Seele wird gefärbt durch die Gedanken.",
+            "author": "Marcus Aurelius"
+        },
+        {
+            "quote": "Wer sich selbst kennt, ist frei.",
+            "author": "Epiktet"
+        },
+        {
+            "quote": "Das Einzige, was nicht weggenommen werden kann, ist das, was du weißt.",
+            "author": "Epiktet"
+        }
+    ]
+}
