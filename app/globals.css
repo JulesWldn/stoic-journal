@@ -111,3 +111,11 @@ button {
         opacity: 0.8;
     }
 }
+
+@media (max-width: 430px) {
+
+    /* Auf echtem Handy - kein Radius, voller Bildschirm */
+    body {
+        align-items: flex-start;
+    }
+}
