@@ -32,7 +32,8 @@ export const viewport = {
     initialScale: 1,
     maximumScale: 1,
     userScalable: false,
-    themeColor: '#3D2B1F',
+    viewportFit: 'cover',
+    themeColor: '#2C2C2C',
 }
 
 export default function RootLayout({ children }) {
@@ -44,12 +45,14 @@ export default function RootLayout({ children }) {
                 <meta name="apple-mobile-web-app-capable" content="yes" />
                 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
                 <meta name="apple-mobile-web-app-title" content="Stoic Journal" />
-                <meta name="theme-color" content="#3D2B1F" />
+                <meta name="theme-color" content="#2C2C2C" />
                 <link rel="icon" href="/icon.png" />
                 <link rel="apple-touch-icon" href="/icon.png" />
             </head>
             <body className={`${dmSans.variable} ${dmSerif.variable}`}>
-                {children}
+                <div id="app-root">
+                    {children}
+                </div>
             </body>
         </html>
     )

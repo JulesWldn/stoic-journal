@@ -21,19 +21,30 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
             onPointerDown={() => setPr(id)}
             onPointerUp={() => { setPr(null); onUp() }}
             onPointerLeave={() => setPr(null)}
+            onPointerCancel={() => setPr(null)}
         >
             {children}
         </div>
     )
 
     return (
-        <div style={SS.home}>
+        <div style={{
+            ...SS.home,
+            // Smooth momentum scrolling
+            WebkitOverflowScrolling: 'touch',
+            overscrollBehaviorY: 'contain',
+        }}>
             <div style={{ padding: '28px 24px 0' }}>
                 <p style={SS.greet}>{getGreeting()}, Julian.</p>
                 <p style={SS.date}>{getDate()}</p>
             </div>
 
-            <div style={{ padding: '20px 20px 100px', display: 'flex', flexDirection: 'column', gap: 14 }}>
+            <div style={{
+                padding: '20px 20px 120px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: 14,
+            }}>
 
                 {tod === 'morning' && card('m', () => onNavigate('morning'), 100,
                     'linear-gradient(135deg,#3D321F,#4A3E25,#3D321F)',
@@ -59,7 +70,7 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
                     </>
                 )}
 
-                {/* Tägliche Weisheit - immer sichtbar */}
+                {/* Tägliche Weisheit */}
                 <div
                     style={{
                         ...SS.card,
@@ -71,6 +82,7 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
                     onPointerDown={() => setPr('w')}
                     onPointerUp={() => { setPr(null); onNavigate('contemplation') }}
                     onPointerLeave={() => setPr(null)}
+                    onPointerCancel={() => setPr(null)}
                 >
                     <p style={SS.cL}>Tägliche Weisheit</p>
                     <p style={{
@@ -80,19 +92,17 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
                     }}>
                         &bdquo;{quote.text}&ldquo;
                     </p>
-                    <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, fontWeight: 300, color: '#E8956D' }}>
+                    <p style={{
+                        fontFamily: "'DM Sans', sans-serif",
+                        fontSize: 13, fontWeight: 300, color: '#E8956D',
+                    }}>
                         - {quote.author}
                     </p>
-                    <div style={{ position: 'absolute', bottom: -6, right: 8, animation: 'breathe 4s ease-in-out infinite' }}>
+                    <div style={{
+                        position: 'absolute', bottom: -6, right: 8,
+                        animation: 'breathe 4s ease-in-out infinite',
+                    }}>
                         <CharacterPlaceholder type="reading" size={85} />
-                    </div>
-                    <div style={{ position: 'absolute', top: 16, right: 18 }}>
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-                            stroke="rgba(245,240,232,0.3)" strokeWidth="2" strokeLinecap="round">
-                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                            <polyline points="15 3 21 3 21 9" />
-                            <line x1="10" y1="14" x2="21" y2="3" />
-                        </svg>
                     </div>
                 </div>
 
@@ -132,11 +142,15 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
                     onPointerDown={() => setPr('l')}
                     onPointerUp={() => { setPr(null); onNavigate('letter') }}
                     onPointerLeave={() => setPr(null)}
+                    onPointerCancel={() => setPr(null)}
                 >
                     <p style={{ ...SS.cL, color: '#9A9085' }}>Brief an mein Ich</p>
                     <p style={{ ...SS.cH, color: '#2C2C2C', fontSize: 19 }}>Worte für die Zukunft</p>
                     {lockedCount > 0 && (
-                        <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 300, color: '#9A9085', marginTop: 6 }}>
+                        <p style={{
+                            fontFamily: "'DM Sans', sans-serif",
+                            fontSize: 12, fontWeight: 300, color: '#9A9085', marginTop: 6,
+                        }}>
                             {lockedCount} {lockedCount === 1 ? 'Brief wartet' : 'Briefe warten'}
                             {unlockedCount > 0 && ` · ${unlockedCount} bereit`}
                         </p>
@@ -168,7 +182,11 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
                     <span style={SS.nL}>Notizen</span>
                 </button>
                 <button style={SS.nB}>
-                    <CharacterPlaceholder type="bust" size={24} />
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                        stroke="#9A9085" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                        <circle cx="12" cy="8" r="4" />
+                        <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
+                    </svg>
                     <span style={SS.nL}>Profil</span>
                 </button>
             </div>
