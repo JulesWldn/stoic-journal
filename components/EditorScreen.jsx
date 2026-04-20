@@ -1,6 +1,7 @@
 'use client'
 import { SS } from '@/lib/styles'
 import { fmtSec } from '@/lib/utils'
+import { haptic } from '@/lib/haptics'
 import { useEffect, useRef, useState } from 'react'
 import content from '@/data/content.json'
 
@@ -9,7 +10,12 @@ export default function EditorScreen({ note, onChange, onClose, saved }) {
     const [recT, setRecT] = useState(0)
     const recRef = useRef(null)
     const recInt = useRef(null)
-    const bPh = content.bodyPlaceholders[Math.floor(Math.random() * content.bodyPlaceholders.length)]
+    const textareaRef = useRef(null)
+
+    // FIX: Placeholder einmal beim Mount festlegen - bleibt stabil während des Schreibens
+    const [bPh] = useState(() =>
+        content.bodyPlaceholders[Math.floor(Math.random() * content.bodyPlaceholders.length)]
+    )
 
     const stopRec = () => {
         if (recRef.current) { try { recRef.current.stop() } catch (_) { } recRef.current = null }
@@ -21,6 +27,7 @@ export default function EditorScreen({ note, onChange, onClose, saved }) {
     const startRec = () => {
         const SR = window.SpeechRecognition || window.webkitSpeechRecognition
         if (!SR) { alert('Spracherkennung wird von deinem Browser nicht unterstützt.'); return }
+        haptic('medium')
         const r = new SR()
         r.lang = 'de-DE'; r.continuous = true; r.interimResults = true
         r.onresult = (e) => {
@@ -39,7 +46,19 @@ export default function EditorScreen({ note, onChange, onClose, saved }) {
 
     useEffect(() => () => stopRec(), [])
 
-    const handleClose = () => { stopRec(); onClose() }
+    // Auto-Resize Textarea
+    useEffect(() => {
+        const ta = textareaRef.current
+        if (!ta) return
+        ta.style.height = 'auto'
+        ta.style.height = Math.max(280, ta.scrollHeight) + 'px'
+    }, [note.body])
+
+    const handleClose = () => { haptic('tap'); stopRec(); onClose() }
+    const handleStopRec = () => { haptic('soft'); stopRec() }
+
+    const body = note.body || ''
+    const words = body.trim() ? body.trim().split(/\s+/).length : 0
 
     return (
         <div style={{ height: '100%', display: 'flex', flexDirection: 'column', background: '#F5F0E8' }}>
@@ -76,11 +95,12 @@ export default function EditorScreen({ note, onChange, onClose, saved }) {
                     onChange={e => onChange(p => ({ ...p, title: e.target.value }))}
                 />
                 <textarea
+                    ref={textareaRef}
                     style={{
                         fontFamily: "'DM Sans', sans-serif", fontSize: 16, fontWeight: 300,
                         lineHeight: 1.8, color: '#2C2C2C', border: 'none',
                         background: 'transparent', width: '100%', minHeight: 280,
-                        resize: 'none', caretColor: '#C4724A',
+                        resize: 'none', caretColor: '#C4724A', overflow: 'hidden',
                     }}
                     placeholder={bPh}
                     value={note.body || ''}
@@ -92,7 +112,7 @@ export default function EditorScreen({ note, onChange, onClose, saved }) {
             <div style={{ padding: '14px 28px 28px', borderTop: '1px solid rgba(154,144,133,0.15)' }}>
                 {isRec ? (
                     <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                        <button onClick={stopRec} style={{
+                        <button onClick={handleStopRec} style={{
                             width: 38, height: 38, borderRadius: '50%',
                             border: '2px solid #C4724A', background: 'rgba(196,114,74,0.08)',
                             display: 'flex', alignItems: 'center', justifyContent: 'center',
@@ -132,6 +152,15 @@ export default function EditorScreen({ note, onChange, onClose, saved }) {
                         <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, fontWeight: 300, color: '#9A9085' }}>
                             Tippen oder sprechen
                         </span>
+                        {words > 0 && (
+                            <span style={{
+                                fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 500,
+                                letterSpacing: '0.12em', textTransform: 'uppercase', color: '#9A9085',
+                                marginLeft: 'auto', opacity: 0.7,
+                            }}>
+                                {words} {words === 1 ? 'Wort' : 'Wörter'}
+                            </span>
+                        )}
                     </div>
                 )}
             </div>

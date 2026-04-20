@@ -11,6 +11,7 @@ import GuidedFlow from '@/components/GuidedFlow'
 import Contemplation from '@/components/Contemplation'
 import LetterScreen from '@/components/LetterScreen'
 import ArchiveScreen from '@/components/ArchiveScreen'
+import ProfileScreen from '@/components/ProfileScreen'
 
 export default function Page() {
     const [isAuthenticated, setIsAuthenticated] = useState(false)
@@ -142,7 +143,14 @@ export default function Page() {
         } catch (err) { console.error(err) }
     }
 
-    // PIN Overlay - wird angezeigt bis authentifiziert
+    const lockApp = () => {
+        try {
+            localStorage.setItem('sj_auth', JSON.stringify({ attempts: 0 }))
+        } catch { }
+        setIsAuthenticated(false)
+        setScreen('home')
+    }
+
     if (!isAuthenticated) {
         return <PinOverlay onUnlocked={() => setIsAuthenticated(true)} />
     }
@@ -151,13 +159,46 @@ export default function Page() {
     const unlocked = letters.filter(l => new Date(l.unlock_date) <= new Date())
 
     if (loading) return (
-        <div style={{ ...SS.root, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{
+            position: 'fixed',
+            inset: 0,
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: 'linear-gradient(180deg, #2A1C14 0%, #1A1208 100%)',
+            padding: '20px',
+            paddingTop: 'max(20px, env(safe-area-inset-top))',
+            paddingBottom: 'max(20px, env(safe-area-inset-bottom))',
+            zIndex: 100,
+            fontFamily: "'DM Sans', sans-serif",
+        }}>
             <div style={{
+                width: 52, height: 52, borderRadius: '50%',
+                background: 'rgba(212, 168, 83, 0.08)',
+                border: '1px solid rgba(212, 168, 83, 0.2)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                animation: 'breathe 2.8s ease-in-out infinite',
+                marginBottom: 22,
+            }}>
+                <div style={{
+                    width: 14, height: 14, borderRadius: '50%',
+                    background: '#D4A853',
+                    opacity: 0.8,
+                    animation: 'twinkle 2.8s ease-in-out infinite',
+                }} />
+            </div>
+            <p style={{
                 fontFamily: "'DM Serif Display', serif",
-                fontStyle: 'italic', fontSize: 18, color: '#9A9085',
+                fontStyle: 'italic',
+                fontSize: 15,
+                color: 'rgba(245, 240, 232, 0.5)',
+                letterSpacing: '0.03em',
             }}>
                 Einen Moment...
-            </div>
+            </p>
         </div>
     )
 
@@ -240,6 +281,15 @@ export default function Page() {
                         letters={letters}
                         onBack={() => navigate('home')}
                         onOpenNote={openNote}
+                    />
+                )}
+
+                {screen === 'profile' && (
+                    <ProfileScreen
+                        notes={notes}
+                        letters={letters}
+                        onBack={() => navigate('home')}
+                        onLock={lockApp}
                     />
                 )}
 

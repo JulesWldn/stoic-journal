@@ -1,6 +1,7 @@
 'use client'
 import { SS } from '@/lib/styles'
 import { getGreeting, getDate, getTimeOfDay, getDailyIndex } from '@/lib/utils'
+import { haptic } from '@/lib/haptics'
 import CharacterPlaceholder from './CharacterPlaceholder'
 import content from '@/data/content.json'
 import { useState } from 'react'
@@ -10,6 +11,8 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
     const tod = getTimeOfDay()
     const quote = content.quotes[getDailyIndex(content.quotes.length)]
 
+    const press = (id) => { haptic('soft'); setPr(id) }
+
     const card = (id, onUp, delay, bg, children) => (
         <div
             style={{
@@ -18,7 +21,7 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
                 cursor: 'pointer',
                 animation: `fadeIn 500ms ease ${delay}ms both`,
             }}
-            onPointerDown={() => setPr(id)}
+            onPointerDown={() => press(id)}
             onPointerUp={() => { setPr(null); onUp() }}
             onPointerLeave={() => setPr(null)}
             onPointerCancel={() => setPr(null)}
@@ -27,10 +30,11 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
         </div>
     )
 
+    const navClick = (target) => { haptic('tap'); onNavigate(target) }
+
     return (
         <div style={{
             ...SS.home,
-            // Smooth momentum scrolling
             WebkitOverflowScrolling: 'touch',
             overscrollBehaviorY: 'contain',
         }}>
@@ -79,7 +83,7 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
                         minHeight: 200, cursor: 'pointer',
                         animation: `fadeIn 500ms ease ${tod === 'afternoon' ? '150ms' : '200ms'} both`,
                     }}
-                    onPointerDown={() => setPr('w')}
+                    onPointerDown={() => press('w')}
                     onPointerUp={() => { setPr(null); onNavigate('contemplation') }}
                     onPointerLeave={() => setPr(null)}
                     onPointerCancel={() => setPr(null)}
@@ -139,7 +143,7 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
                         cursor: 'pointer',
                         animation: 'fadeIn 500ms ease 500ms both',
                     }}
-                    onPointerDown={() => setPr('l')}
+                    onPointerDown={() => press('l')}
                     onPointerUp={() => { setPr(null); onNavigate('letter') }}
                     onPointerLeave={() => setPr(null)}
                     onPointerCancel={() => setPr(null)}
@@ -171,7 +175,7 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
                     </svg>
                     <span style={{ ...SS.nL, color: '#F5F0E8' }}>Start</span>
                 </button>
-                <button style={SS.nB} onClick={() => onNavigate('archive')}>
+                <button style={SS.nB} onClick={() => navClick('archive')}>
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
                         stroke="#9A9085" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
@@ -181,7 +185,7 @@ export default function HomeScreen({ onNavigate, onStartDump, lockedCount, unloc
                     </svg>
                     <span style={SS.nL}>Notizen</span>
                 </button>
-                <button style={SS.nB}>
+                <button style={SS.nB} onClick={() => navClick('profile')}>
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
                         stroke="#9A9085" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                         <circle cx="12" cy="8" r="4" />

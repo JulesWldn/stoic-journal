@@ -149,6 +149,96 @@
                 "Was nimmst du wahr, wenn du deinen Gedanken nicht glaubst, sondern sie nur beobachtest?",
                 "Welcher Teil von dir ist ruhig, auch wenn der Rest in Bewegung ist?"
             ]
+        },
+        {
+            "text": "Alles, was wir hören, ist eine Meinung, keine Tatsache. Alles, was wir sehen, ist eine Perspektive, keine Wahrheit.",
+            "author": "Marcus Aurelius",
+            "context": "Marcus erinnerte sich immer wieder daran, dass unser Zugang zur Wirklichkeit gefiltert ist - durch Sprache, durch Erfahrung, durch die Erwartungen anderer. Wer das versteht, hört zu, bevor er urteilt.",
+            "questions": [
+                "Wo hältst du gerade eine Meinung für eine Tatsache?",
+                "Welche Überzeugung hast du, die du vielleicht nur von jemand anderem übernommen hast?",
+                "Was würdest du anders sehen, wenn du den Blickwinkel wechselst?"
+            ]
+        },
+        {
+            "text": "Die beste Rache ist, nicht wie dein Feind zu sein.",
+            "author": "Marcus Aurelius",
+            "context": "Als Kaiser wurde Marcus oft beleidigt, verraten, untergraben. Er fand eine klare Antwort: Sich selbst nicht von der Bosheit anderer formen zu lassen, ist die einzige Rache, die etwas bewirkt.",
+            "questions": [
+                "Wer hat dich kürzlich verletzt oder enttäuscht - und wie hat dich das verändert?",
+                "Wo bist du jemand geworden, der du nicht sein möchtest, aus Reaktion auf andere?",
+                "Wie würdest du antworten, wenn du aus Stärke statt aus Verletzung reagierst?"
+            ]
+        },
+        {
+            "text": "Begehre nicht das, was dir nicht gehört. Verliere nicht aus den Augen, was du hast.",
+            "author": "Marcus Aurelius",
+            "context": "Die Versuchung, immer auf das zu schauen, was fehlt, ist uralt. Marcus erinnerte sich selbst daran, dass die meisten Menschen ihr Leben verpassen, weil sie ständig auf das nächste schauen.",
+            "questions": [
+                "Was willst du gerade so sehr, dass du das Gute in deinem Leben übersiehst?",
+                "Was hast du, das vor fünf Jahren noch ein Wunsch war?",
+                "Was könntest du heute neu entdecken, das schon da ist?"
+            ]
+        },
+        {
+            "text": "Wer überall zu Hause ist, ist nirgendwo zu Hause.",
+            "author": "Seneca",
+            "context": "Seneca schrieb dies an Lucilius über die Ruhelosigkeit seiner Zeit - Menschen, die von Ort zu Ort, von Gedanken zu Gedanken sprangen. Die Wurzel aller Unruhe, sagte er, ist die Flucht vor sich selbst.",
+            "questions": [
+                "Wo bist du gerade zu Hause - innerlich?",
+                "Was suchst du woanders, das du in dir selbst finden könntest?",
+                "Wann hast du dich zuletzt wirklich angekommen gefühlt?"
+            ]
+        },
+        {
+            "text": "Wer keine Ruhe in sich selbst trägt, wird sie nirgendwo finden.",
+            "author": "Seneca",
+            "context": "Eine der klarsten Einsichten der Stoa: Die äußeren Bedingungen sind nicht die Ursache unserer inneren Unruhe. Wer vor sich selbst flieht, nimmt sich überall mit.",
+            "questions": [
+                "Wohin möchtest du gerade fliehen - in welchen Moment, welchen Ort, welche Beschäftigung?",
+                "Was würdest du dort finden, das du hier nicht finden kannst?",
+                "Wo könntest du heute fünf Minuten einfach bei dir sein?"
+            ]
+        },
+        {
+            "text": "Von allem, was existiert, liegt manches in unserer Macht, manches nicht.",
+            "author": "Epiktet",
+            "context": "Der erste Satz aus Epiktets Handbüchlein - das Fundament der gesamten stoischen Lebenskunst. In unserer Macht liegen unsere Gedanken, Urteile, Absichten. Nicht in unserer Macht liegt alles andere.",
+            "questions": [
+                "Welche Energie verschwendest du gerade an etwas, das nicht in deiner Macht liegt?",
+                "Was liegt wirklich in deiner Hand - und tust du dort dein Bestes?",
+                "Wie würde sich dein Tag verändern, wenn du diese Unterscheidung ernst nimmst?"
+            ]
+        },
+        {
+            "text": "Wenn du von der Philosophie Nutzen haben willst, zeige dich nicht weise dem Volk, sondern trage die Philosophie still in dir.",
+            "author": "Epiktet",
+            "context": "Epiktet warnte vor der Versuchung, Weisheit zu demonstrieren statt zu leben. Wer über Tugend spricht, aber sie nicht verkörpert, gewinnt Publikum - aber verliert sich selbst.",
+            "questions": [
+                "Wo lebst du deine Werte - und wo redest du nur über sie?",
+                "Welche stille Handlung wäre heute echter als viele Worte?",
+                "Was trägst du in dir, das niemand sehen muss, um wahr zu sein?"
+            ]
+        },
+        {
+            "text": "Die Tugend wird nicht durch Worte gelehrt, sondern durch Handlungen.",
+            "author": "Musonius Rufus",
+            "context": "Musonius war Epiktets Lehrer und wurde selbst mehrfach verbannt. Er lehrte, dass Philosophie keine Disziplin des Redens ist, sondern des Lebens - und dass der Lehrer nur so weit wirkt, wie er selbst lebt.",
+            "questions": [
+                "Was möchtest du sein - nicht im Kopf, sondern in deinem Handeln?",
+                "Welche kleine Entscheidung heute wäre eine Handlung der Tugend, nicht nur ein Gedanke?",
+                "Wen kennst du, der Werte lebt, ohne sie zu predigen?"
+            ]
+        },
+        {
+            "text": "Das Ziel des Lebens ist es, in Übereinstimmung mit der Natur zu leben.",
+            "author": "Zenon von Kition",
+            "context": "Zenon gründete die Stoa um 300 v. Chr. Seine Grundüberzeugung: Jedes Wesen hat eine Natur, und Erfüllung liegt darin, dieser Natur zu folgen - nicht gegen sie zu kämpfen. Für den Menschen heißt das: vernünftig, gemeinschaftlich, tugendhaft zu leben.",
+            "questions": [
+                "Wo kämpfst du gerade gegen deine eigene Natur, statt mit ihr?",
+                "Was ist deine Natur - wenn du ehrlich bist, ohne Rollen und Erwartungen?",
+                "Wie würde ein Tag aussehen, an dem du im Einklang mit dir selbst lebst?"
+            ]
         }
     ],
     "dumpPrompts": [
@@ -159,7 +249,13 @@
         "Was füllt deinen Kopf gerade?",
         "Was liegt dir auf der Seele?",
         "Lass es raus. Niemand liest mit.",
-        "Was brauchst du, um loszulassen?"
+        "Was brauchst du, um loszulassen?",
+        "Was willst du nicht mehr mit dir tragen?",
+        "Welcher Gedanke kehrt immer wieder?",
+        "Was wird gerade zu viel?",
+        "Was würdest du jemandem sagen, dem du vollkommen vertraust?",
+        "Schreib, bis es sich leichter anfühlt.",
+        "Was hast du heute verschwiegen - auch vor dir selbst?"
     ],
     "bodyPlaceholders": [
         "Lass die Gedanken einfach fließen...",
@@ -167,7 +263,11 @@
         "Schreib, was da ist. Ohne Urteil.",
         "Dein Geist wird leichter, wenn du die Dinge ablegst.",
         "Was auch immer da ist - es darf hier sein.",
-        "Kein Anfang nötig. Einfach schreiben."
+        "Kein Anfang nötig. Einfach schreiben.",
+        "Hier ist Raum für alles - auch für das, was unordentlich ist.",
+        "Der Gedanke zählt, nicht der Satz.",
+        "Lass die Worte finden, was sie brauchen.",
+        "Niemand muss das verstehen. Auch du nicht."
     ],
     "morningQuestionSets": [
         [
@@ -238,6 +338,34 @@
             {
                 "pillar": "Dankbarkeit",
                 "question": "Welche Person in deinem Leben verdient heute deinen Dank - auch unausgesprochen?"
+            }
+        ],
+        [
+            {
+                "pillar": "Werte",
+                "question": "Welcher deiner Werte soll heute sichtbar werden - auch wenn es unbequem wird?"
+            },
+            {
+                "pillar": "Haltung",
+                "question": "Mit welcher Haltung möchtest du diesem Tag begegnen - neugierig, ruhig, mutig, offen?"
+            },
+            {
+                "pillar": "Grenzen",
+                "question": "Wo musst du heute 'Nein' sagen, damit du 'Ja' zum Wesentlichen sagen kannst?"
+            }
+        ],
+        [
+            {
+                "pillar": "Einfachheit",
+                "question": "Was kannst du heute aus deinem Tag streichen, ohne dass es dir fehlen würde?"
+            },
+            {
+                "pillar": "Mut",
+                "question": "Wo willst du heute etwas tun, das dich leicht unwohl fühlen lässt - weil es dich wachsen lässt?"
+            },
+            {
+                "pillar": "Präsenz",
+                "question": "In welchem Moment heute willst du wirklich ankommen - ohne Handy, ohne Eile, nur da?"
             }
         ]
     ],
@@ -310,6 +438,34 @@
             {
                 "pillar": "Ruhe",
                 "question": "Was brauchst du jetzt, um wirklich zur Ruhe zu kommen?"
+            }
+        ],
+        [
+            {
+                "pillar": "Präsenz",
+                "question": "In welchem Moment heute warst du wirklich da - und nicht mit den Gedanken woanders?"
+            },
+            {
+                "pillar": "Reaktion",
+                "question": "Wie hast du auf das reagiert, was dich heute herausgefordert hat - mit Klarheit oder aus Impuls?"
+            },
+            {
+                "pillar": "Loslassen",
+                "question": "Was aus dem heutigen Tag gehört nicht in den morgigen?"
+            }
+        ],
+        [
+            {
+                "pillar": "Werte gelebt",
+                "question": "In welchem Moment heute war dein Handeln im Einklang mit dem, wer du sein willst?"
+            },
+            {
+                "pillar": "Muster",
+                "question": "Welches Muster hast du heute bei dir erkannt - hilfreich oder nicht?"
+            },
+            {
+                "pillar": "Frieden",
+                "question": "Was brauchst du, um mit Frieden in den Schlaf zu gehen?"
             }
         ]
     ],
@@ -403,6 +559,42 @@
                 "pillar": "Freude",
                 "question": "Was macht dich wirklich glücklich - nicht was sollte dich glücklich machen?"
             }
+        ],
+        [
+            {
+                "pillar": "Identität",
+                "question": "Wer bist du, wenn alles Äußere wegfallen würde - ohne Job, ohne Rollen, ohne Erwartungen?"
+            },
+            {
+                "pillar": "Richtung",
+                "question": "Gehst du gerade in eine Richtung, die dir wichtig ist - oder nur in eine, die sich ergeben hat?"
+            },
+            {
+                "pillar": "Widerstand",
+                "question": "Wogegen kämpfst du gerade, das vielleicht einfach nur angenommen werden muss?"
+            },
+            {
+                "pillar": "Leichtigkeit",
+                "question": "Was wäre, wenn es gerade einfach sein dürfte?"
+            }
+        ],
+        [
+            {
+                "pillar": "Stille",
+                "question": "Wann warst du zuletzt wirklich still - ohne Ablenkung, ohne Reiz, ohne Input?"
+            },
+            {
+                "pillar": "Körper",
+                "question": "Was sagt dir dein Körper gerade, das du bisher überhört hast?"
+            },
+            {
+                "pillar": "Geben",
+                "question": "Was könntest du gerade geben, ohne etwas zurückzuerwarten?"
+            },
+            {
+                "pillar": "Genug",
+                "question": "Wo ist in deinem Leben bereits genug - auch wenn du mehr willst?"
+            }
         ]
     ],
     "letterDurations": [
@@ -431,6 +623,18 @@
         {
             "quote": "Der Anfang ist die Hälfte des Ganzen.",
             "author": "Aristoteles"
+        },
+        {
+            "quote": "Der Morgen gehört dem, der ihn ernst nimmt.",
+            "author": "Marcus Aurelius"
+        },
+        {
+            "quote": "Zwei Dinge sind am Morgen zu tun: aufstehen und Gutes denken.",
+            "author": "Epiktet"
+        },
+        {
+            "quote": "Wer den Tag mit Absicht beginnt, wird nicht von ihm getragen.",
+            "author": "Seneca"
         }
     ],
     "eveningCompletionQuotes": [
@@ -445,6 +649,18 @@
         {
             "quote": "Ruhe ist keine Schwäche - sie ist die Frucht der Stärke.",
             "author": "Marcus Aurelius"
+        },
+        {
+            "quote": "Wer heute aufrichtig war, wird morgen frei aufwachen.",
+            "author": "Marcus Aurelius"
+        },
+        {
+            "quote": "Der gute Schlaf ist der Lohn des klaren Gewissens.",
+            "author": "Seneca"
+        },
+        {
+            "quote": "Der Tag ist vollbracht. Das Morgen wird sich selbst kümmern.",
+            "author": "Epiktet"
         }
     ],
     "reflectionCompletionQuotes": [
@@ -459,6 +675,18 @@
         {
             "quote": "Das Einzige, was nicht weggenommen werden kann, ist das, was du weißt.",
             "author": "Epiktet"
+        },
+        {
+            "quote": "Sich zu erkennen ist der Anfang aller Weisheit.",
+            "author": "Sokrates"
+        },
+        {
+            "quote": "Der Mensch, der sich selbst besiegt, ist der größte Sieger.",
+            "author": "Platon"
+        },
+        {
+            "quote": "Nichts, was du über dich weißt, war je verloren.",
+            "author": "Marcus Aurelius"
         }
     ]
 }
